@@ -28,4 +28,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Links
 Git Repo: https://github.com/dev-hg20/profile-hw.git
+URL: https://dev-hg20.github.io/profile-hw/
 

@@ -1,0 +1,55 @@
+h1 {
+  font-family: "Arizonia", cursive;
+  font-size: 120px;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  padding: 10px;
+}
+
+.btn-primary {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: grey;
+  border: grey;
+}
+
+.navbar-toggler.icon {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-item {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-item a {
+  color: black;
+  padding: 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-item {
+  display: block;
+}
+
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 40px;
+  }
+}

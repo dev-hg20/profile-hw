@@ -27,3 +27,5 @@ Images utilised from pinterest https://www.pinterest.com/kimbaker0470/beautiful-
 Pull requests are welcome. For major changes, please open an issue first to discuss changes. Thank you.
 
 ## Links
+Git Repo: https://github.com/dev-hg20/profile-hw.git
+

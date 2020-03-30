@@ -38,13 +38,10 @@ h1 {
 .col-sm-2 {
   padding: 7px;
 }
-
-.img {
-  width: 33.33%;
-}
-
-img:hover {
-  opacity: 0.5;
+.card-img-top {
+  width: 382px;
+  height: 180px;
+  padding: 15px;
 }
 
 @media screen and (max-width: 720px) {

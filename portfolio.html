@@ -7,6 +7,7 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="portfolio.css" />
     <title>Haylie's Portfolio</title>
   </head>
@@ -27,33 +28,16 @@
         <div class="col-sm-12">
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Navigation</a>
-        
-            <div class="dropdown">
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    id="dropdownmenu"
-                    data-toggle="dropdown"
-                    data-target="#navbarNavAltMarkup"
-                    aria-haspopup="true"
-                    aria-expanded="true"
-                    aria-label="Toggle navigation"
-                  >
-                    <span class="navbar-toggler-icon"></span>
-                    <a class="dropdown-item" href="index.html">Home</a>
-                    <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                    <a class="dropdown-item" href="contact.html">Contact</a>
-                </button>
-            </div>
-
-            
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#"></a>
                 <a class="nav-item nav-link" href="index.html">Home</a>
                 <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                <a class="nav-item nav-link" href="contact.html">Resume</a>
+                <a class="nav-item nav-link fa fa-linkedin-square" style="font-size:24px" href ="https://www.linkedin.com/in/haylie-goh-941bb896/"></a>
+                <a class="nav-item nav-link fa fa-github" style="font-size:24px" href ="https://github.com/dev-hg20"></a>
+                <a class="nav-item nav-link fa fa-file-pdf-o" style="font-size:24px" href =href ="./portfolio-assets/cv-2018-dev.pdf"></a>
               </div>
             </div>
           </nav>
@@ -64,43 +48,83 @@
 
       <content>
         <div class="row">
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Cupcakes.jpg" alt="Cupcakes" style="width: 100%; height:100%">
+          <!-- <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="portfolio-assets/workday-scheduler.PNG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Workday Scheduler</h5>
+                <p class="card-text">A daily scheduler for all your important tasks.</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://dev-hg20.github.io/workday-scheduler/" class="btn btn-primary">Application</a>
+                <a href="https://github.com/dev-hg20/workday-scheduler" class="btn btn-primary">Repository</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <img class="card-img-top" src="portfolio-assets/workday-scheduler.PNG" alt="Card image cap">
+                <h5 class="card-title">Workday Scheduler</h5>
+                <p class="card-text">A daily scheduler for all your tasks!</p>
+                <a href="https://dev-hg20.github.io/workday-scheduler/" class="btn btn-primary">Application</a>
+                <a href="https://github.com/dev-hg20/workday-scheduler" class="btn btn-primary">Repository</a>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Chocolate Cherry Cake.jpg" alt="Chocolate Cake" style="width: 100%;height:100%">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <img class="card-img-top" src="portfolio-assets/food-hound.PNG" alt="Card image cap" width="100%" height ="100%">
+                <h5 class="card-title">Food Hound</h5>
+                <p class="card-text">The only food application you will need.</p>
+                <a href="https://jschrbr.github.io/food-hound/" class="btn btn-primary">Application</a>
+                <a href="https://github.com/jschrbr/food-hound" class="btn btn-primary">Repository</a>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Clementine Curd Pavlova - The Kitchen McCabe.jpg" alt="Pavlova" style="width: 100%;height:100%">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <img class="card-img-top" src="portfolio-assets/weather-dashboard.PNG" alt="Card image cap" width="100%" height ="100%">
+                <h5 class="card-title">Weather Dash</h5>
+                <p class="card-text">For all your weather needs.</p>
+                <a href="https://dev-hg20.github.io/weather-dashboard/" class="btn btn-primary">Application</a>
+                <a href="https://github.com/dev-hg20/weather-dashboard" class="btn btn-primary">Repository</a>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Coconut coffee cake with caramel glaze - Call Me Cupcake.jpg" alt="Coconut Coffee Cake" style="width: 100%;height:100%">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <img class="card-img-top" src="portfolio-assets/passwrod-generator.PNG" alt="Card image cap" width="100%" height ="100%">
+                <h5 class="card-title">Password Generator</h5>
+                <p class="card-text">Need a Password?</p>
+                <a href="https://dev-hg20.github.io/js.password-generator/" class="btn btn-primary">Application</a>
+                <a href="https://github.com/dev-hg20/js.password-generator.git" class="btn btn-primary">Repository</a>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Ginger Cake With Salted Caramel Poached Pears - Sugar et al.jpg" alt="Giner Cake" style="width: 100%;height:100%">
-          </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Grain-free Chocolate Raspberry Cake - The Kitchen McCabe.jpg" alt="Chocolate Raspberry" style="width: 100%;height:100%">
-          </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Lemon Blueberry Cake.jpg" alt="Lemon Blueberry" style="width: 100%;height:100%">
-          </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Mini Bourbon Caramelized Peach Baked Alaska _ HBH.jpg" alt="Boubon Bomb Alaska" style="width: 100%;height:100%">
-          </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/No-Bake Chocolate Tart With Stem Ginger (Vegan) - Domestic Gothess.jpg" alt="Chocolate Tart" style="width: 100%;height:100%">
-          </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Pear Cake with Salted Caramel — O&O Eats.jpg" alt="Pear Cake" style="width: 100%;height:100%">
-          </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Rhubarb Cake With Pomegranate And Rosemary Buttercream - Sugar et al.jpg" alt="Rhubarb Cake" style="width: 100%;height:100%">
-          </div>
-          <div class="col-sm-2">
-            <img src="./portfolio-assets/Rhubarb, Raspberry & Dark Chocolate Bread & Butter Pudding Cake _ The Brick Kitchen.jpg" alt="Rhubarb and Dark Chocolate" style="width: 100%;height:100%">
-          </div>
-                              
         </div>
       </content>
 
